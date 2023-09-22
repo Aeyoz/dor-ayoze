@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T15:27:18.657Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="UXpNt_3xHf4wpuGb6kjv" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-22T15:43:23.631Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="3JmsuGeBsppy8tLTV_tz" version="21.8.0" type="github">
   <diagram name="Página-1" id="mp0kXgvkkXyUFT29Nsr_">
     <mxGraphModel dx="1434" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,16 +42,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NFAzy8b7VDDtTDJCmxKZ-1" value="Página Main" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="130" width="160" height="210" as="geometry" />
+          <mxGeometry x="810" y="130" width="160" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="NFAzy8b7VDDtTDJCmxKZ-2" value="&lt;div&gt;+ productos&lt;/div&gt;&lt;div&gt;+ enlaces de interés&lt;/div&gt;&lt;div&gt;+ &lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NFAzy8b7VDDtTDJCmxKZ-1">
-          <mxGeometry y="26" width="160" height="124" as="geometry" />
+        <mxCell id="NFAzy8b7VDDtTDJCmxKZ-2" value="&lt;div&gt;+ Subscripcion&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ barra de busqueda&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NFAzy8b7VDDtTDJCmxKZ-1">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
         </mxCell>
         <mxCell id="NFAzy8b7VDDtTDJCmxKZ-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NFAzy8b7VDDtTDJCmxKZ-1">
-          <mxGeometry y="150" width="160" height="8" as="geometry" />
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="NFAzy8b7VDDtTDJCmxKZ-4" value="&lt;div&gt;Acceder al carrito&lt;/div&gt;&lt;div&gt;Realizar busqueda&lt;/div&gt;&lt;div&gt;Acceder a productos&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NFAzy8b7VDDtTDJCmxKZ-1">
-          <mxGeometry y="158" width="160" height="52" as="geometry" />
+        <mxCell id="NFAzy8b7VDDtTDJCmxKZ-4" value="&lt;div&gt;+ Acceder al carrito&lt;/div&gt;&lt;div&gt;+ Realizar busqueda&lt;/div&gt;&lt;div&gt;+ Acceder a productos&lt;/div&gt;&lt;div&gt;+ marca&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ ofertas&lt;/div&gt;&lt;div&gt;+ segunda mano&lt;/div&gt;&lt;div&gt;+ nuevas&lt;/div&gt;&lt;div&gt;+ trending&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ subastas&lt;/div&gt;&lt;div&gt;+ Acceder a opciones de&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ perfil&lt;/div&gt;&lt;div&gt;+ Terminos y condiciones &lt;/div&gt;&lt;div&gt;+ politicas de privacidad&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ politica de cookies&lt;/div&gt;&lt;div&gt;+ aviso legal&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ sobre nosotros&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ trabaja con nosotros&lt;/div&gt;&lt;div&gt;+ programa de puntos&lt;/div&gt;&lt;div&gt;+ correo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NFAzy8b7VDDtTDJCmxKZ-1">
+          <mxGeometry y="88" width="160" height="282" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
