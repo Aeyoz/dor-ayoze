@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T15:52:47.252Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="IT7d5EFVfK72kw6yJStG" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-26T15:53:59.791Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="P4xn29Ps3_2B-NVUjgej" version="21.8.0" type="github">
   <diagram name="Página-1" id="mp0kXgvkkXyUFT29Nsr_">
     <mxGraphModel dx="1434" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="NFAzy8b7VDDtTDJCmxKZ-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="130" y="35" width="990" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="anNDmAgalf24ZzHCrCHk-5" value="Vista registrar usuario" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="anNDmAgalf24ZzHCrCHk-5" value="Vista registrar usuario_init" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="240" y="130" width="160" height="210" as="geometry" />
         </mxCell>
         <mxCell id="anNDmAgalf24ZzHCrCHk-6" value="&lt;div&gt;+ nombre&lt;/div&gt;&lt;div&gt;+ apellidos&lt;/div&gt;&lt;div&gt;+ telefono&lt;/div&gt;&lt;div&gt;+ usuario&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ contraseña&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ email&lt;/div&gt;&lt;div&gt;+ direccion&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="anNDmAgalf24ZzHCrCHk-5" vertex="1">
@@ -19,7 +19,7 @@
         <mxCell id="anNDmAgalf24ZzHCrCHk-8" value="&lt;div&gt;registrar&lt;/div&gt;&lt;div&gt;cancelar&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="anNDmAgalf24ZzHCrCHk-5" vertex="1">
           <mxGeometry y="158" width="160" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="anNDmAgalf24ZzHCrCHk-10" value="Vista login" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="anNDmAgalf24ZzHCrCHk-10" value="Vista login_init" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="520" y="130" width="160" height="210" as="geometry" />
         </mxCell>
         <mxCell id="anNDmAgalf24ZzHCrCHk-11" value="&lt;div&gt;+ usuario&lt;/div&gt;&lt;div&gt;+ password&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="anNDmAgalf24ZzHCrCHk-10" vertex="1">
@@ -43,7 +43,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NFAzy8b7VDDtTDJCmxKZ-1" value="Página Main" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="NFAzy8b7VDDtTDJCmxKZ-1" value="Vista main_init" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="810" y="130" width="160" height="370" as="geometry" />
         </mxCell>
         <mxCell id="NFAzy8b7VDDtTDJCmxKZ-2" value="&lt;div&gt;+ Subscripcion&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ barra de busqueda&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="NFAzy8b7VDDtTDJCmxKZ-1" vertex="1">
