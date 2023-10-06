@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <noscript>Active el Javascript</noscript>
+    <h1>Enunciados y valores</h1>
+    <ul>
+        <li>Actividad 1</li>
+        <bloqkuote>Active el Javascript con noscript</bloqkuote>
+        <li>Actividad 2</li>
+            <ul>
+                <li>2 > 3 +2 == false</li>
+                <li>1 + false +3.5 == 4.5</li>
+                <li>4 * true + 2 == 6</li>
+                <li>5 / 0 == Infinite</li>
+                <li>10 > 2 > 0 == true</li>
+                <li>15 < 3 * 10 == true</li>
+                <li>3 * hola + 2 == NaN</li>
+                <li>5 / “hola” == NaN</li>
+                <li>π * 32 == 100.5309....</li>
+                <li>“Tienes” + 23 + “años” == "Tienes 23 años"</li>
+            </ul>
+        <li>Actividad 3</li>
+        <ul>
+            <li>parseInt("15"); == 15</li>
+            <li>parseInt("15.5") == 15</li>
+            <li>parseInt(15.5) == 15</li>
+            <li>parseInt("true") == NaN</li>
+            <li>parseInt(true) == NaN</li>
+            <li>parseInt("Pedro") == NaN</li>
+            <li>parseInt(15 + "Pedro") == 15</li>
+            <li>parseFloat("15.5") == 15.5</li>
+            <li>parseFloat(15.5) == 15.5</li>
+        </ul>
+        <li>Actividad 4</li>
+        <p>
+            function saludar(){<br>
+                var nombre = "Pedro";<br>
+                alert("Hola" + nombre);<br>
+            } <br>
+            alert("Usuario: " + nombre);<br>
+            saludar();<br>
+        </p>
+        <p>La variable nombre es una variable local</p>
+        <li>Actividad 5</li>
+        <ul>
+            <li>16 << 2 == 64</li>
+            <li>8 > 10 ? v1 = “sí” : v1 = “no” == "no"</li>
+            <li>var n=7; alert(“n vale “ + (++n)); == Se mostrará que n = 8 pero n seguira con valor 7</li>
+            <li>var m=17; alert("m vale " + (m++)); alert(m); Se mostrará que m tiene valor 17 pero se aumenta en 1</li>
+            <li>3 ^ 2 == 1 (comparacion por bits)</li>
+            <li>var y=17; y%=5; == 2 == 17%5</li>
+            <li>var caja = ["percha", "balón"]; alert(caja[1]); balón</li>
+            <li>var a=3,b=6; var h = a > b ? a : b; b</li>
+        </ul>
+        <li>Actividad 6</li>
+            var arr=[1,2,3,4];
+            <br>for(var i=0; i < arr.length; i++) {
+            <br>    console.log(arr[i]);
+            <br>}
+            <br>
+            <br>for(var i=0, len=arr.length; i < len; ++i) {
+            <br>    console.log(arr[i]);
+            <br>}
+            <br>
+            <br>¿Muestran la misma información el primer y el segundo bucle?
+            <br>Si
+            <br>¿Cuál es la diferencia entre los mismos?
+            <br>¿Existe diferencia entre ++i e i++?
+            <br>Sí, cuando se usa ++i lo que pasa es que primero se aumenta el valor de i y luego se utiliza la variable.<br>
+                Cuando se usa i++ se usa la variable primero y luego se aumenta el valor
+            <br>¿Qué muestra el siguiente código: "arr.forEach(function(i){console.log(i)});"?
+            <br>¿Y el siguiente?<br>
+                <br>for (i of arr) {
+                <br>    console.log(i);
+                <br>} <br>
+            <br>¿Hay diferencia con el siguiente?<br>
+            <br>    for (i in arr){
+            <br>        console.log(i)
+            <br>    }
+        <li>Actividad 7</li>
+        <li>Actividad 8</li>
+        <li>Actividad 9</li>
+        <li>Actividad 10</li>
+    </ul>
+</body>
+</html>
