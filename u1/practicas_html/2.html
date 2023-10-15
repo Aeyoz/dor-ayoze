@@ -82,9 +82,85 @@
             <br>    for (i in arr){
             <br>        console.log(i)
             <br>    }
-        <li>Actividad 7</li>
+            <br>
+            <li>Actividad 7</li>
+            Realiza un programa en JavaScript que calcule el área y el perímetro de una circunferencia de radio 5 m. A continuación, modifica dicho código para que el usuario pueda introducir el radio. Recuerda que para seleccionar un elemento desde HTML debes usar la instancia document.getElementById(""). Algunas funciones predefinidas necesarias/útiles para esta tarea son:
+            <br>
+            <form action="">
+                <label for="">
+                    <input type="number" id="radius">
+                </label>
+                <button type="button" onclick="calcPerimeterandArea()">Calcular</button>
+            </form>
+            <p id="perimeter-result">Perímetro: </p>
+            <p id="area-result">Area: </p>
+        <script>
+            var radius = document.getElementById("radius").value
+            function calcPerimeterandArea() {
+                var perimeter = Math.PI * radius * 2;
+                var area = Math.PI * radius ** 2;
+                document.getElementById("perimeter-result").innerHTML = "Perímetro: "+ perimeter.toFixed(3);
+                document.getElementById("area-result").innerHTML = "Área: "+ area.toFixed(3);
+            }
+        </script>
         <li>Actividad 8</li>
+        <h1>Ejemplo de Eventos onmouseover, onmouseout y onblur.</h1>
+        <div id="miDiv" onmouseover="mostrarMensaje('Mouse sobre el div')" onmouseout="mostrarMensaje('Mouse fuera del div')">
+            <p>¡Pasa el mouse sobre este div!</p>
+            <input type="text" onblur="mostrarMensaje('El campo de texto ha perdido el foco')" placeholder="Escribe algo y luego haz clic fuera">
+        </div>
+        <p id="mensaje"></p>
+        <script>
+            function mostrarMensaje(mensaje) {
+                document.getElementById('mensaje').innerHTML = mensaje;
+            }
+        </script>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <li>Actividad 9</li>
+        <form action="">
+            <label for="">
+                <input type="number" id="tip_amount">
+                <select name="tip" id="tip" onchange="calcTip()">
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                </select>
+                <p id="payment">To pay:</p>
+            </label>
+        </form>
+        <script>
+            var tipamount = document.getElementById("tip_amount").value;
+            var tippercentaje = document.getElementById("tip").value;
+            function calcTip() {
+                if (tippercentaje === "30") {
+
+                } else if (tippercentaje === "20") {
+
+                } else if (tippercentaje === "15") {
+
+                } else if (tippercentaje === "10") {
+                    
+                }
+                
+                switch (tippercentaje) {
+                    case "10":
+                        var tip = tipamount * 0.1;
+                        break;
+                    case "15":
+                        var tip = tipamount * 0.15;
+                        break;
+                    case "20":
+                        var tip = tipamount * 0.2;
+                        break;
+                    case "30":
+                        var tip = tipamount * 0.3;
+                        break;
+                };
+                document.getElementById("payment").innerHTML = "To pay: "+ tip;
+            }
+
+        </script>
         <li>Actividad 10</li>
     </ul>
 </body>
