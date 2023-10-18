@@ -1,0 +1,27 @@
+* {
+    text-align: center;
+}
+
+.blue {
+    background-color: blue;
+    border: solid 1px black;
+}
+
+.red {
+    background-color: red;
+    height: 300px;
+}
+
+.orange {
+    background-color: orange;
+    height: 100px;
+    border: solid 1px black;
+}
+
+.blue {
+    height: 100px;
+}
+
+.fuxia {
+    background-color: fuchsia;
+}
