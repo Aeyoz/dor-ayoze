@@ -6,6 +6,17 @@
     <title>Document</title>
 </head>
 <body>
+    <style>
+        #calculadora {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 90px;
+            margin: 1px;
+            border: solid 1px black;
+            justify-content: center;
+        }
+    </style>
     <noscript>Active el Javascript</noscript>
     <h1>Enunciados y valores</h1>
     <ul>
@@ -117,49 +128,20 @@
         </script>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <li>Actividad 9</li>
-        <form action="">
-            <label for="">
-                <input type="number" id="tip_amount">
-                <select name="tip" id="tip" onchange="calcTip()">
-                    <option value="10">10</option>
-                    <option value="15">15</option>
-                    <option value="20">20</option>
-                    <option value="30">30</option>
-                </select>
+        <input type="number" id="tipamount">
+            <select name="tip" id="tipp" onchange="calcTip()" onselect="calcTip()">
+                <option value="0.10">10</option>
+                <option value="0.15">15</option>
+                <option value="0.20">20</option>
+                <option value="0.30">30</option>
+            </select>
                 <p id="payment">To pay:</p>
-            </label>
-        </form>
         <script>
-            var tipamount = document.getElementById("tip_amount").value;
-            var tippercentaje = document.getElementById("tip").value;
-            function calcTip() {
-                if (tippercentaje === "30") {
-
-                } else if (tippercentaje === "20") {
-
-                } else if (tippercentaje === "15") {
-
-                } else if (tippercentaje === "10") {
-                    
-                }
-                
-                switch (tippercentaje) {
-                    case "10":
-                        var tip = tipamount * 0.1;
-                        break;
-                    case "15":
-                        var tip = tipamount * 0.15;
-                        break;
-                    case "20":
-                        var tip = tipamount * 0.2;
-                        break;
-                    case "30":
-                        var tip = tipamount * 0.3;
-                        break;
-                };
-                document.getElementById("payment").innerHTML = "To pay: "+ tip;
+            function calcTip(){
+                var tipamount = parseInt(document.getElementById("tipamount").value);
+                var tippercentaje = parseFloat(document.getElementById("tipp").value);
+                document.getElementById("payment").innerHTML = "To pay: "+ tipamount * tippercentaje;
             }
-
         </script>
         <li>Actividad 10</li>
     </ul>
