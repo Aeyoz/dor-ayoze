@@ -6,6 +6,17 @@
     <title>Document</title>
 </head>
 <body>
+    <style>
+        #calculadora {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 90px;
+            margin: 1px;
+            border: solid 1px black;
+            justify-content: center;
+        }
+    </style>
     <noscript>Active el Javascript</noscript>
     <h1>Enunciados y valores</h1>
     <ul>
@@ -117,21 +128,20 @@
         </script>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <li>Actividad 9</li>
-            <input type="number" id="tip_amount">
-            <select name="tip" id="tip" onchange="calcTip()">
+        <input type="number" id="tipamount">
+            <select name="tip" id="tipp" onchange="calcTip()" onselect="calcTip()">
                 <option value="0.10">10</option>
                 <option value="0.15">15</option>
                 <option value="0.20">20</option>
                 <option value="0.30">30</option>
             </select>
-            <p id="payment">To pay:</p>
+                <p id="payment">To pay:</p>
         <script>
-            function calcTip() {
-                var tipamount = parseInt(document.getElementById("tip_amount").value);
-                var tippercentaje = parseFloat(document.getElementById("tip").value);
+            function calcTip(){
+                var tipamount = parseInt(document.getElementById("tipamount").value);
+                var tippercentaje = parseFloat(document.getElementById("tipp").value);
                 document.getElementById("payment").innerHTML = "To pay: "+ tipamount * tippercentaje;
             }
-
         </script>
         <li>Actividad 10</li>
         

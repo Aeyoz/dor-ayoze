@@ -2,77 +2,102 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    
+
+    <link rel="stylesheet" href="./css/1.css">
+
+    <link rel="alternate" href="./css/2.css">
+
+    <link rel="stylesheet" href="./css/3.css" media="print">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-    <link rel="stylesheet" href="./css/1.css">
     
     
     <meta name="author" content="Ayoze Hdez Díaz">
     
     
-    <title id="titulo">Práctica de html | DOR</title>
+    <title id="titulo">Nombre de la marca | Tienda de Sneakers</title>
     
     
-    <link rel="icon" type="image/x-icon" href="https://cdn.icon-icons.com/icons2/2351/PNG/512/logo_github_icon_143196.png">
+    <link rel="icon" type="image/x-icon" href="https://shorturl.at/pvyBH">
     
     
-    <meta name="description" content="Esta es una breve descripcion del contenido de la página web">
+    <meta name="description" content="Esta es una breve descripción 
+    del contenido de la página web">
     
+
+    <meta http-equiv="content-language" content="es">
+
     
-    <meta name="keywords" content="daw, html, js, repaso, práctica">
+    <meta name="keywords" content="Sneakers, Zapatos, Tenis, 
+    Deportivas, Ropa de deporte">
     
     
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Título del post para Meta">
-    <meta property="og:url" content="127.0.0.1">
-    <meta property="og:image" content="https://cdn.icon-icons.com/icons2/2351/PNG/512/logo_github_icon_143196.png">
-    <meta property="og:description" content="Descripción de la página de práctica">
+    <meta property="og:title" content="Nombre de la marca | Tienda de Sneakers">
+    <meta property="og:description" content="Sneaker's shop">
 
     
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:creator" content="Ayoze"/>
-    <meta property="twitter:title" content="Título del post para Twitter"/>
-    <meta property="twitter:url" content="127.0.0.1">
-    <meta property="twitter:image" content="https://cdn.icon-icons.com/icons2/2351/PNG/512/logo_github_icon_143196.png"/>
-    <meta property="twitter:description" content="Descripción de la página de práctica"/>
+    <meta property="twitter:card" content="summary"/>
+    <meta property="twitter:title" content="Nombre de la marca | Tienda de Sneakers"/>
+    <meta property="twitter:description" content="Sneaker's shop"/>
     
-    
+
+
+    <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap" 
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
     <script src="./js/script.js"></script>
+
+
 </head>
 <body>
-    <h1>Pepito</h1>
-    <button id="button" type="submit" onclick="changeTitle('titulo')">Presionar</button>
+    <h1>Sneakers</h1>
+
+
+    <button id="button" type="submit" 
+    onclick="changeTitle('titulo')">Presionar</button>
+    
+    
     <style>
-        div.pepe{
-            background-color: blue;
-            width: 50%;
+
+        body{
+            font-family: "Roboto", sans-serif;
+            background-color: lightblue;
+            margin: 10px;
+            padding: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
         }
-        @media (min-width: 600px) {
-        div.pepe {
-            background-color: red;
-            width: 100%;
-            }
+
+        button {
+            background-color: darkgray;
+            border-color: black;
+            border-radius: 10px 10px;
         }
+
         button:hover {
-            background-color: green;
-            border-color: purple;
+            background-color: white;
+            border-color: gainsboro;
+            border-radius: 10px 10px;
         }
 
         p {
             font-family: 'Times New Roman', Times, serif;
         }
 
-        h1 {
-            line-height: 100px;
+        h1, h2, h3 {
+            line-height: 50px;
             font-size: medium;
         }
 
     </style>
     <div class="pepe">
-        <p>"Pinocho se fue a pescar al rio Guadalquivir"</p>
+        <p></p>
     </div>
     <div class="yui-panel">PEPE</div>
 </body>

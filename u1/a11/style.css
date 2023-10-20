@@ -1,0 +1,44 @@
+* {
+    text-align: center;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+    height: 250px;
+}
+
+.orange {
+    background-color: orange;
+    height: 100px;
+    border: solid 1px black;
+}
+
+.blue {
+    height: 60px;
+}
+
+.fuxia {
+    background-color: fuchsia;
+    height: 30px;
+}
+
+.gray {
+    background-color: gray;
+    height: 8em;
+    border: solid 1px black;
+}
+
+.cyan {
+    background-color: cyan;
+}
+@media (max-width: 767px) {
+    .red {height: 30px;}
+}
