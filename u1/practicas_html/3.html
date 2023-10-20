@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rombo de emoticonos</title>
+</head>
+<body>
+
+    <div id="rombo" style="text-align: center"></div>
+    
+    <script>
+            function dibujarRombo(filas) {
+                
+                let output = '';
+                
+                //Parte creciente del rombo:
+                for (let i = 1; i <= filas; i++){
+                    let linea = '';
+                    for (let j = 1; j <= 2 * i - 1; j++) {
+                        linea += '*';
+                    }
+                    output += linea + '<br>';
+                }
+                
+                //Parte decreciente del rombo:
+                for (let i = filas - 1; i >= 1; i--) {
+                    let linea = '';
+                    for (let j = 1; j <= 2 * i - 1; j++) {
+                        linea += '*';
+                    }
+                    output += linea + '<br>';
+                }
+                document.getElementById('rombo').innerHTML = output;
+            }
+            dibujarRombo(15); //Ejecutamos la función.    
+    </script>
+    Actividad 11. Crea una web sencilla que permita al usuario introducir un número de entrada y obtener todos los divisores del mismo. Para ello, algunas funciones a tener en cuenta además de las vistas anteriormente son:
+
+    parseInt()
+
+    %: devuelve el módulo o resto de una división.
+
+Actividad 12. Basándote en la actividad anterior, crea una web que permita al usuario obtener un determinado número de valores ordenados de la sucesión de Fibonacci (La matemática incrustada en la inmensa variedad de formas de vida)  en la que cada término se obtiene como suma de los dos anteriores:
+
+0, 1, 1, 2, 3, 5, 8, 13...
+
+Un modificador de utilidad para esta tarea es el ".push()", el cual permite añadir nuevos elementos a un array cualquiera previamente definido.
+</body>
+</html>
