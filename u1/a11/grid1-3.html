@@ -8,37 +8,50 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="col green">Green</div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-3 offset offset-md-3">1</div>
-            <div class="col-md-3 offset">2</div>
-            <div class="col-md-3 offset offset-md-0">3</div>
-            <div class="col-md-3 offset offset-md-3">4</div>
+    <div class="container-fluid green">HEADER</div>
+    <div class="row">
+        <div class="col-6 col-sm-3 offset-md-3">
+            <div class="blue">1</div>
         </div>
-        <div class="row">
-            <div class="col-md-3 orange"></div>
-            <div class="col-md-3 orange"></div>
-            <div class="col-md-3 orange"></div>
-            <div class="col-md-3 orange"></div>
+        <div class="col-6 col-sm-3">
+            <div class="blue">2</div>
         </div>
-        <div class="row">
-            <div class="desktop col blue"></div>
+        <div class="col-6 col-sm-3 d-none d-md-block"></div>
+        <div class="col-6 col-sm-3">
+            <div class="blue">3</div>
         </div>
-        <div class="row">
-            <div class="orange col-md-3 offset-md-3"></div>
-            <div class="col orange col-md-3"></div>
+        <div class="col-6 col-sm-3 offset-md-6">
+            <div class="blue">4</div>
         </div>
     </div>
     <div class="row">
-            <div class="col-md-3 offset-md-3"></div>
-            <div class="col-md-3 orange"></div>
-            <div class="col-md-3 orange"></div>
-            <div class="col-md-3 orange"></div>
+        <div class="tablet col d-xs-none d-sm-block d-md-none">
+            <div class="cyan">Tablet</div>
+        </div>
     </div>
-    
-
-    <div class="col green">Green</div>
+    <div class="row">
+        <div class="col-6 col-sm-3"><div class="gray">1</div></div>
+        <div class="col-6 col-sm-3"><div class="gray">2</div></div>
+        <div class="col-6 col-sm-3"><div class="gray">3</div></div>
+        <div class="col-6 col-sm-3"><div class="gray">4</div></div>
+    </div>
+    <div class="row">
+        <div class="col d-none d-sm-none d-md-block">
+            <div class="cyan">Desktop</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-block d-sm-none d-md-none">
+            <div class="cyan">Mobile</div>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <div class="col-sm-6 col-md-3"><div class="orange">:></div></div>
+        <div class="col-sm-6 col-md-3"><div class="orange">:D</div></div>
+    </div>
+    <div class="row">
+        <div class="d-none d-sm-block"><div class="green">Footer</div></div>
+    </div>
 
 </body>
 </html>

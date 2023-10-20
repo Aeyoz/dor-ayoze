@@ -1,6 +1,5 @@
 * {
     text-align: center;
-    padding: 3px;
 }
 
 .green {
@@ -31,11 +30,14 @@
     height: 30px;
 }
 
-
-.offset {
-    background-color: green;
+.gray {
+    background-color: gray;
     height: 8em;
     border: solid 1px black;
+}
+
+.cyan {
+    background-color: cyan;
 }
 @media (max-width: 767px) {
     .red {height: 30px;}
