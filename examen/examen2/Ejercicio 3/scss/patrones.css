@@ -1,0 +1,54 @@
+.relax {
+  background-image: url("../patrones/relax.png");
+  padding: 5px;
+}
+
+.relax .article {
+  font-family: Verdana;
+  text-shadow: black;
+  background-color: white;
+}
+
+.contrast {
+  background-image: url("../patrones/contrast.png");
+  padding: 5px;
+}
+
+.contrast .article {
+  font-family: "Comic Sans MS";
+  text-shadow: black;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.love {
+  background-image: url("../patrones/love.png");
+  padding: 5px;
+}
+
+.love .article {
+  font-family: Gabriola;
+  text-shadow: black;
+  background-color: white;
+}
+
+.psico {
+  background-image: url("../patrones/psico.png");
+  padding: 5px;
+}
+
+.psico .article {
+  font-family: "Arial Black";
+  text-shadow: white;
+  background-color: white;
+}
+
+.moderm {
+  background-image: url("../patrones/moderm.png");
+  padding: 5px;
+}
+
+.moderm .article {
+  font-family: Impact;
+  text-shadow: black;
+  background-color: rgba(0, 0, 0, 0.8);
+}/*# sourceMappingURL=patrones.css.map */

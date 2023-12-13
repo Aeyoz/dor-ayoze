@@ -1,0 +1,27 @@
+$intrepid_size:11pt;
+$classic_size:12pt;
+$inversed_size:9pt;
+$intrepid_color:red;
+$classic_color:black;
+$inversed_color:orange;
+$intrepid_bgc:lightgray;
+$classic_bgc:white;
+$inversed_bgc:silver;
+
+.card-intrepida {
+    font-size: $intrepid_size;
+    color: $intrepid_color;
+    background-color: $intrepid_bgc;
+}
+
+.card-clasica {
+    font-size: $classic_size;
+    color: $classic_color;
+    background-color: $classic_bgc;
+}
+
+.card-inversa {
+    font-size: $inversed_size;
+    color: $inversed_color;
+    background-color: $inversed_bgc;
+}
