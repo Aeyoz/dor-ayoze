@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+$color_black:#222;
+$header_font_size:50px;
+$header_line_height:64px;
+$m_p_size:40px;
+$font_family: "League Spartan", sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-family;
+}
+
+
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+
+.section-p1 {
+    padding: $m_p_size 0;
+}
+
+.section-m1 {
+    margin: $m_p_size 0;
+}
+
+@mixin styles_for_buttons {
+    font-size: 14px;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+
+    &:hover {
+        background-color: $primary-color;
+        color: #fff;
+    }
+}
+
+button.normal {
+    @include styles_for_buttons;
+}
+

@@ -1,0 +1,28 @@
+.box {
+    width: 5rem;
+    height: 5rem;
+    background-color: #F54928;
+    transition: transform 1s ease;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.box:hover {
+    transform: rotate(1.25turn) scale(3, 2) skew(2deg, 2deg);
+    animation-delay: 3s;
+}
+
+.A {
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transition: transform 1s ease;
+}
+
+.A:hover {
+    transform: rotatey(0.5turn) scale(3, 3);
+
+}

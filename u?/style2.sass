@@ -1,0 +1,86 @@
+/*Ejercicio 1*/
+
+$reference: 5px
+.box 
+    width: #{$reference * 20}
+    height: #{$reference + 45}
+    margin-top: #{$reference * 2}
+
+
+/*Ejercicio 2*/
+
+$min-width: 800px
+$font-size: 16px
+@media (min-width: $min-width) 
+    p 
+        font-size: $font-size
+    
+
+@media (max-width: #{$min-width - 1}) 
+    p 
+        font-size: #{($font-size - 4)}
+
+
+
+/*Ejercicio 3*/
+
+$min-width: 800px
+$main-color: #0fff
+$reference-color: #b8b8b8
+@media (min-width: $min-width) 
+    button 
+        background-color: #{$reference-color - $main-color}
+        color: $main-color
+
+
+
+@media (max-width: #{($min-width - 1)}) 
+    button 
+        background-color: $main-color
+        color: #{$reference-color - $main-color}
+
+
+
+/*Ejercicio 4*/
+
+$hello: "Hello"
+$world: "World"
+.content::before 
+    content: #{$hello} #{$world}
+
+
+/*Ejercicio 5*/
+
+$text: "Hola. Bienvenido al aula Click"
+p::before 
+    content: str-slice($intro, 7, 16)
+
+
+/*Ejercicio 6*/
+
+/*h1::before {
+/*    content: "Welcome to SASS!";
+/*}
+
+
+$word: "SASS"
+h1:before
+    content: "welcome to #{word}!"
+
+
+/*Ejercicio 7*/
+
+
+
+/*Ejercicio 8*/
+
+
+
+/*Ejercicio 9*/
+
+
+
+/*Ejercicio 10*/
+
+
+

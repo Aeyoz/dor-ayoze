@@ -1,0 +1,123 @@
+/* Marlon  Farizo, Ayoze Hernández y Yamila Ramos */
+
+
+.l-bg-cherry {
+    all: unset;
+    background: linear-gradient(to right, rgb(31, 31, 175), rgb(33, 113, 160)) !important;
+    color: #fff;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+}
+
+.btn.btn-outline-secondary {
+    border-color: rgb(33, 113, 160);
+    color: rgb(33, 113, 160);
+}
+
+.btn.btn-outline-secondary:hover {
+    background-color: rgb(33, 113, 160);
+    color: white;
+}
+
+.btn.btn-primary {
+    background-color: rgb(33, 113, 160);
+    border: none;
+}
+
+.btn.btn-primary:hover{
+    background-color: rgb(24, 139, 206);
+}
+
+/* Reducir la altura de la barra de navegación */
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: rgb(24, 139, 206);
+}
+
+.cards {
+    transition: transform 0.2s;
+    margin-right: 70px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #fff; 
+    z-index: 1; 
+    width: 200px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cards:hover .submenu {
+    display: block;
+}
+
+.card_1 {
+    background: linear-gradient(to right, rgb(119, 0, 113)   , rgb(255, 0, 242)) !important;
+}
+
+.card_1:hover {
+    background: rgba(255, 0, 242, 0.527) !important;
+    color: black;
+}
+
+.card_2 {
+    background: linear-gradient(to right, green   , rgb(0, 250, 0)) !important;
+}
+
+.card_2:hover {
+    background: rgba(0, 128, 0, 0.452) !important;
+    color: black;
+}
+
+.card_3 {
+    background: linear-gradient(to right, rgb(126, 0, 0)  , red) !important;
+}
+
+.card_3:hover {
+    background: rgba(255, 0, 0, 0.589) !important;
+    color: black;
+}
+
+.card_4 {
+    background: linear-gradient(to right, rgb(51, 51, 51)  , grey) !important;
+}
+
+.card_4:hover {
+    background: rgba(128, 128, 128, 0.555) !important;
+    color: black;
+}

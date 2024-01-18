@@ -1,0 +1,89 @@
+/*Ejercicio 1*/
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/*Ejercicio 2*/
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.container p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+/*Ejercicio 3*/
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/*Ejercicio 4*/
+
+
+
+/*Ejercicio 5*/
+
+
+
+/*Ejercicio 6*/
+
+
+
+/*Ejercicio 7*/
+
+
+
+/*Ejercicio 8*/
+
+
+
+/*Ejercicio 9*/
+
+
+
+/*Ejercicio 10*/
+
+
+
+/*Ejercicio 11*/
+
+
+
+/*Ejercicio 12*/
+
+
+
+/*Ejercicio 13*/
+
+
+
+/*Ejercicio 14*/
