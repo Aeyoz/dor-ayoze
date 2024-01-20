@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+    @keyframes rebote {
+        0% {
+            top: 200px;
+            transform: translateX(-10%) translateY(-100px);
+        }
+        25% {
+            top: 200px;
+            transform: translateX(25%) translateY(200px);
+        }
+        50% {
+            top: 20px;
+            transform: translateX(50%) translateY(100px);
+        }
+        75% {
+            top: 30px;
+            transform: translateX(75%) translateY(150px);
+        }
+        100% {
+            top: 0px;
+            transform: translateX(100%) translateY(200px);
+        }
+    }
+
+    .suelo {
+        position: absolute;
+        top: 260px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 10px;
+        background-color: #804000;
+    }
+
+    .pelota {
+        left:0;
+        top:0;
+        animation: rebote 2s linear infinite;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="suelo"></div>
+    <div class="pelota" id="pelota">
+        <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="20" fill="red" />
+        </svg>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+body {
+    background-color: grey !important;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc; /* Puedes ajustar el color de fondo según tus necesidades */
+    border: 1px solid #000; /* Puedes ajustar el estilo del borde según tus necesidades */
+    background-image: url("img/guadaña.jpg");
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.image:hover{
+    transform: rotateY(180deg);
+    background-image: url("./img/white.jpg");
+}
+
+.text {
+    display: none;
+}
+
+.image:hover .text{
+    transform: rotateY(180deg);
+    background-image: url("./img/white.jpg");
+    display: block;
+}

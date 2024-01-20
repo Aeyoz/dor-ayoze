@@ -1,0 +1,14 @@
+.box {
+    width: 5rem;
+    height: 5rem;
+    background-color: #F54928;
+    transition: transform 1s ease;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.box:hover {
+    transform: rotate(150deg) scale(3, 2) skew(2deg, 2deg);
+    animation-delay: 3s;
+}
