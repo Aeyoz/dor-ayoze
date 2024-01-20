@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@keyframes caida {
+    0% {
+        top: 0;
+        left: 50%;
+    }
+    25% {
+        top: 30%;
+        left: 50%;
+    }
+    75% {
+        top: 60%;
+        left: 50%;
+    }
+    100% {
+    top: 90%;
+    left: 50%;
+}
+}
+
+.caida {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 200px;
+    height: 100px;
+    transform: translateX(-50%) rotate(0deg);
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.5s ease, top 0.5s ease;
+}
+
+.caida.active {
+    transform: translateX(-50%) rotate(45deg);
+    top: 80vh;
+    animation: caida 1s linear;
+}
+
+/*
+.caida:active {
+    transform: translateX(-50%) rotate(45deg);
+    top: 80vh;
+    animation: caida 1s linear;
+}
+/*
+.caida.active {
+    transform: translateX(-50%) rotate(45deg);
+    top: 80vh;
+    animation: caida 1s linear;
+}
+*/
